@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Quiz form page">
+  <meta name="keywords" content="HTML, Form, Elements">
+  <meta name="author" content="Avery Porter">
+  <title>PHP Enhancements</title>
+  <link href="styles/style.css" rel="stylesheet">
+
+</head>
+<body class = "bg">
+
+<header>
+	<nav>
+			<img class="jam" id="jam" src="images/gooseberry.png" width="50" height="60" alt="jam_mascot">
+		<form class="menu" action="index.php" method="get">
+		<button class="menu_button">Home</button>
+		</form>
+		<form class="menu" action="topic.php" method="get">
+		<button class="menu_button">Information</button>
+		</form>
+		<form class="menu" action="quiz.php" method="get">
+		<button class="menu_button">Quiz Page</button>
+		</form>
+		<form class="menu" action="enhancement.html" method="get">
+		<button class="menu_button">Enhancements</button>
+		</form>
+		<form class="menu" action="phpenhancements.php" method="get">
+		<button class="menu_button">PHP Enhancements</button>
+		</form>
+		<form class="menu" action="references.html" method="get">
+		<button class="menu_button">References</button>
+		</form>
+		<form class="menu" action="manage.php" method="get">
+		<button class="menu_button">Quiz Administrator</button>
+		</form>
+	</nav>
+</header>
+
+<h1 id="top">Enhancements used</h1> 
+
+<fieldset>
+<h2>The Enhancements Used</h2>
+<p>There have been 4 main Enhancements implemented in this website: <br>
+<a href="#menubut">Menu Buttons</a><br>
+<a href="#embvid">Embedded Youtube Video</a><br>
+<a href="#anchp">Anchor Points</a><br>
+<a href="#qtime">Quiz Timer</a><br>
+</p>
+</fieldset>
+
+<br>
+
+<fieldset>
+<h2 id="menubut">Menu Buttons</h2>
+<p>The menu buttons are located at the top of each page. There you have Home, Information, Quiz Page, Enhancements and References. <br>
+These buttons were made using both the form and button elements. 
+By putting them together you have a functioning button that sends the user back to the linked action page.
+<br><br>
+This enhancement also uses css in the form of the .menu_button class being a hoverable. When it is hovered over it will gain a background color and the font color will change.
+It uses color, background color, and opacity to make it stand out with border radius giving it curved edges to give it a classic button feel.
+<br><br>
+Also implemented in this enhancement are the changes of color to links. As links have a set color for its four states, there has been css added to change these colors to ensure that the links match the websites theme.
+</p>
+<strong>The elements used to implement this enhacement include:</strong>
+<ul>
+<li>form</li>
+<li>action</li>
+<li>button</li>
+<li>:link</li>
+<li>:visted</li>
+<li>:active</li>
+<li>:hover</li>
+<li>color</li>
+<li>background-color</li>
+<li>opacity</li>
+<li>border-radius</li>
+</ul>
+</fieldset>
+
+<br>
+
+<fieldset>
+<h2 id="embvid">Embedded Youtube Video</h2>
+<a href="https://mercury.swin.edu.au/cos10032/s104416957/ass01/index.html">Back to Home Page</a>
+<p>The youtube video has been embedded in the website using an a hfref link. The video is represented by a youtube logo png.
+This way, when you click on the image the user will be taken to the youtube video.</p>
+
+<strong>The elements used to implement this enhacement include:</strong>
+<ul>
+<li>a</li>
+<li>href</li>
+<li>img</li>
+</ul>
+</fieldset>
+
+<br>
+
+<fieldset>
+<h2 id="anchp">Anchor Point</h2>
+<a href="https://mercury.swin.edu.au/cos10032/s104416957/ass01/topic.html">Back to Information Page</a>
+<p>The anchor point was implemented using the id= tag on the h1 element. When the user gets to the bottom of the page they will see
+the link, which is another href link being used. Once that link is clicked it will take the user back to the top of the page starting 
+at where the h1 element is located. <br><br>
+This enhancement is also featured at both the top and bottom of this page.</p>
+<strong>The elements used to implement this enhacement include:</strong>
+<ul>
+<li>a</li>
+<li>href</li>
+<li>h1</li>
+</ul>
+</fieldset>
+
+<br>
+
+<fieldset>
+<h2 id="qtime">Quiz Page Timer</h2>
+<a href="https://mercury.swin.edu.au/cos10032/s104416957/ass01/quiz.html">Back to Quiz Page</a>
+<p>	Located at the bottom on the quiz page is an enhancement that was implement to work as a
+100 second quiz timer.
+
+This timer works using solely keyframe animation elements. The code goes from 0% to 100%, while counting down 100 seconds to 0 seconds.
+The animation is set on a 100second linear timer so that way through every percent it counts down exactly 1 second.
+<br><br>
+As the timer goes down the color of the animation shifts. It originally begins as a light purple, but as it counts down it gradually shifts 
+to a light red. Once the counter gets to 80% or 20 seconds remaining it starts to shift into a more vibrant shade of red to signal that the timer is almost up.
+Once the 100 seconds pass the timer stops at 0.
+<br><br>
+This timer does not reset unless the page is refreshed, and is mainly used as a fun side game for the user while answering the quiz.
+</p>
+<strong>The elements used to implement this enhacement include:</strong>
+<ul>
+<li>div</li>
+<li>::after</li>
+<li>content :counter(count)</li>
+<li>animation</li>
+<li>color</li>
+<li>keyframes</li>
+</ul>
+<br><br>
+
+<a href="#top">Back to Top</a>
+
+</fieldset>
+<br><br>
+
+	<footer>
+	<hr>
+	<p class = "footnote" ><a href="104416957@student.swin.edu.au">Email</a> 
+	&#169; DR. JAM </p>
+	</footer>
+	
+</body>	
+</html>

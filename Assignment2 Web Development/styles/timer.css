@@ -1,0 +1,326 @@
+/*
+filename: Quiz CSS prototype
+author: Avery Porter
+created: 09/04/2023
+last modified: 09/04/2023
+description: assignment01.html
+timer made using keyframe animations 100seconds 
+*/
+
+.timer 	{text-align: center;}
+div		{text-align: center;}
+
+div::after {
+  font: 800 40px system-ui;
+  content: counter(count);
+  animation: counter 100s linear;
+  color: #DE0F0F;
+}
+
+@keyframes counter {
+	0% {
+    counter-increment: count 100;
+	color: #B768EA;
+  }
+    1% {
+    counter-increment: count 99;
+  }
+    2% {
+    counter-increment: count 98;
+  }
+    3% {
+    counter-increment: count 97;
+  }
+    4% {
+    counter-increment: count 96;
+  }
+    5% {
+    counter-increment: count 95;
+  }
+    6% {
+    counter-increment: count 94;
+  }
+    7% {
+    counter-increment: count 93;
+  }
+    8% {
+    counter-increment: count 92;
+  }
+    9% {
+    counter-increment: count 91;
+  }
+    10% {
+    counter-increment: count 90;
+  }
+    11% {
+    counter-increment: count 89;
+  }
+    12% {
+    counter-increment: count 88;
+  }
+    13% {
+    counter-increment: count 87;
+  }
+    14% {
+    counter-increment: count 86;
+  }
+    15% {
+    counter-increment: count 85;
+  }
+    16% {
+    counter-increment: count 84;
+  }
+    17% {
+    counter-increment: count 83;
+  }
+    18% {
+    counter-increment: count 82;
+  }
+    19% {
+    counter-increment: count 81;
+  }
+    20% {
+    counter-increment: count 80;
+  }
+    21% {
+    counter-increment: count 79;
+  }
+    22% {
+    counter-increment: count 78;
+  }
+    23% {
+    counter-increment: count 77;
+  }
+    24% {
+    counter-increment: count 76;
+  }
+    25% {
+    counter-increment: count 75;
+  }
+    26% {
+    counter-increment: count 74;
+  }
+    27% {
+    counter-increment: count 73;
+  }
+    28% {
+    counter-increment: count 72;
+  }
+    29% {
+    counter-increment: count 71;
+  }
+    30% {
+    counter-increment: count 70;
+  }
+    31% {
+    counter-increment: count 69;
+  }
+    32% {
+    counter-increment: count 68;
+  }
+    33% {
+    counter-increment: count 67;
+  }
+    34% {
+    counter-increment: count 66;
+  }
+    35% {
+    counter-increment: count 65;
+  }
+    36% {
+    counter-increment: count 64;
+  }
+    37% {
+    counter-increment: count 63;
+  }
+    38% {
+    counter-increment: count 62;
+  }
+    39% {
+    counter-increment: count 61;
+  }
+    40% {
+    counter-increment: count 60;
+  }
+    41% {
+    counter-increment: count 59;
+  }
+    42% {
+    counter-increment: count 58;
+  }
+    43% {
+    counter-increment: count 57;
+  }
+    44% {
+    counter-increment: count 56;
+  }  
+    45% {
+    counter-increment: count 55;
+  }
+    46% {
+    counter-increment: count 54;
+  }
+    47% {
+    counter-increment: count 53;
+  }
+    48% {
+    counter-increment: count 52;
+  }
+    49% {
+    counter-increment: count 51;
+  }
+    50% {
+    counter-increment: count 50;
+  }
+    51% {
+    counter-increment: count 49;
+  }
+    52% {
+    counter-increment: count 48;
+  }
+    53% {
+    counter-increment: count 47;
+  }
+    54% {
+    counter-increment: count 46;
+  }
+    55% {
+    counter-increment: count 45;
+  }
+    56% {
+    counter-increment: count 44;
+  }
+    57% {
+    counter-increment: count 43;
+  }
+    58% {
+    counter-increment: count 42;
+  }
+    59% {
+    counter-increment: count 41;
+  }
+    60% {
+    counter-increment: count 40;
+  }
+    61% {
+    counter-increment: count 39;
+  }
+    62% {
+    counter-increment: count 38;
+  }
+    63% {
+    counter-increment: count 37;
+  }
+    64% {
+    counter-increment: count 36;
+  }
+    65% {
+    counter-increment: count 35;
+  }
+    66% {
+    counter-increment: count 34;
+  }
+    67% {
+    counter-increment: count 33;
+  }
+    68% {
+    counter-increment: count 32;
+  }
+    69% {
+    counter-increment: count 31;
+  }
+    70% {
+    counter-increment: count 30;
+  }
+    71% {
+    counter-increment: count 29;
+  }
+    72% {
+    counter-increment: count 28;
+  }
+    73% {
+    counter-increment: count 27;
+  }
+    74% {
+    counter-increment: count 26;
+  }
+    75% {
+    counter-increment: count 25;
+  }
+    76% {
+    counter-increment: count 24;
+  }
+    77% {
+    counter-increment: count 23;
+  }
+    78% {
+    counter-increment: count 22;
+  }
+    79% {
+    counter-increment: count 21;
+  }
+    80% {
+    counter-increment: count 20;
+	color: #F25563;
+  }
+    81% {
+    counter-increment: count 19;
+  }
+    82% {
+    counter-increment: count 18;
+  }
+    83% {
+    counter-increment: count 17;
+  }
+    84% {
+    counter-increment: count 16;
+  }
+    85% {
+    counter-increment: count 15;
+  }
+    86% {
+    counter-increment: count 14;
+  }
+    87% {
+    counter-increment: count 13;
+  }
+    88% {
+    counter-increment: count 12;
+  }
+    89% {
+    counter-increment: count 11;
+  }
+    90% {
+    counter-increment: count 10;
+  }
+    91% {
+    counter-increment: count 9;
+  }
+    92% {
+    counter-increment: count 8;
+  }
+    93% {
+    counter-increment: count 7;
+  }
+    94% {
+    counter-increment: count 6;
+  }
+    95% {
+    counter-increment: count 5;
+  }
+    96% {
+    counter-increment: count 4;
+  }
+    97% {
+    counter-increment: count 3;
+  }
+    98% {
+    counter-increment: count 2;
+  }
+    99% {
+    counter-increment: count 1;
+  }
+    100% {
+    counter-increment: count 0;
+	color: #DE0F0F;
+  }

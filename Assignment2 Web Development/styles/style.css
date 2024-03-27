@@ -1,0 +1,103 @@
+/*
+filename: style.css
+author: Avery Porter, Madelyn Dennett
+created: 09/04/2023
+last modified: 15/04/2023
+description: css style sheet for assignment 1
+*/
+
+/*overall styling*/
+.bg		 {background-image: url("../styles/images/back.JPG");
+		  height: 100%;
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-attachment: fixed;
+		  background-size: cover;
+}
+
+h1 {color: #FFFFFF;
+	text-shadow: 2px 2px 5px #F080E7;
+	font: 36px helvetica;
+	margin: 0.5em 0 0.5em 0.4em;}
+
+legend {background-color: #FAEAFE;
+		opacity: 0.95;
+		font-weight: bold;
+		box-shadow: 0 0 10px 1px #BC76B6;
+		border-radius: 2px;
+}
+fieldset {background-color: #FAEAFE;
+		  opacity: 0.9;
+		  border: none;
+		  box-shadow: 0 0 10px #F080E7;
+		  border-radius: 2px;
+}
+
+*{font-family: 'lucida-console', monospace;
+  color: #30104C;}
+  
+ 
+.footnote 	{color: #FAEAFE;
+			font-style: italic;
+			text-align: center;}
+
+/*about us*/
+
+.jam {float: right;
+	  margin: 0.5em;}
+	  
+.about {display: inline-block;
+		padding: 0 3em 0 3em;}
+		
+.aboutus {text-align: left;
+		  font-weight: bold;}	  
+	  
+/*menu buttons*/
+
+a:link {color: #9C3794;}
+a:visited {color: #9C3794;}
+a:hover {color: #9C3794;}
+a:active {color: #190021;}
+
+form	{display: inline-block;
+		color: #FADAF8;}
+#button {color: #30104C;}
+#submit {color: #30104C;}
+#reset 	{color: #30104C;}
+#select {color: #30104C;}
+
+.menu_button {background-color: transparent;
+			  border: none;
+			  color: #FAEAFE;
+			  padding: 12px 16px;
+			  font-size: 16px;
+			  cursor:pointer;
+			  border-radius: 15px;}
+
+.menu_button:hover {background-color: #FAEAFE;
+					color: #9C3794;
+					opacity: 0.85;
+					}
+					
+/*topic page*/
+					
+aside {	
+border: 4px inset #9C3794;
+border-radius: 14px;
+margin: 1em;
+padding: 1em;
+width: 30%;
+float: right;
+box-shadow: 5px 5px 5px #9C3794;
+}
+					
+dt {font-weight: bold;}
+ol {font-weight: bold;}
+			
+table, th, tr, td {border: 1px solid;}
+
+th {background-color: #C2A6D8;
+opacity: 0.9;}
+
+tr {background-color: #E4CCF7;
+opacity: 0.9;}
